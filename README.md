@@ -1,0 +1,1 @@
+# Plugin PocketStore - homepage-demo
