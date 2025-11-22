@@ -11,7 +11,7 @@
 import { addBreadcrumb } from "~/utils/breadcrumb";
 const { t } = useI18n();
 useHead({
-    title: t("general.title"),
+    title: 'My-Media.World - ' + t("general.title"),
     meta: [
         {
             name: "description",
