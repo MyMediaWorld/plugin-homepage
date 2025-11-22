@@ -1,6 +1,6 @@
 {
-  "vendor": "pocketstore-io",
-  "name": "homepage-demo",
+  "vendor": "MyMediaWorld",
+  "name": "homepage",
   "type": "plugin",
-  "prio": 100
+  "prio": 50
 }
