@@ -16,16 +16,16 @@ useHead({
         {
             name: "description",
             content:
-                "PocketStore.io is a Open Source Shop Framework which is based on PocketBase and made with Nuxt/VueJs by Jonathan Martz.",
+                "Dies ist ein Demo Store von PocketStore.io",
         },
     ],
 });
 
 onMounted(() => {
     addBreadcrumb({
-        code: "test",
-        link: "test123",
-        icon: "question",
+        code: "overview",
+        link: "/",
+        icon: "boxes-stacked",
     });
 });
 </script>
