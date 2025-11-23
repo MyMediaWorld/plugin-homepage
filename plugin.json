@@ -2,5 +2,8 @@
   "vendor": "MyMediaWorld",
   "name": "homepage",
   "type": "plugin",
-  "prio": 50
+  "prio": 50,
+  "requirements": [
+    "github.com/pocketstore-io/plugins-image-slider"
+  ]
 }
