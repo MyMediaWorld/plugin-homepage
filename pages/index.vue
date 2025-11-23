@@ -1,7 +1,12 @@
 <template>
   <section class="page">
     <div class="mx-auto max-w-6xl grid grid-cols-6 gap-3">
-      <ImageSlider :images="images"/>
+      <div class="col-span-6 md:col-span-4">
+        <ImageSlider :images="images"/>
+      </div>
+      <div class="col-span-6 md:col-span-2">
+        <ArticelCard identifier="gzxcvxoljapt577" />
+      </div>
       <CatalogProductGrid identifier="action-dvd"/>
     </div>
   </section>
@@ -9,6 +14,7 @@
 
 <script setup lang="ts">
 import ImageSlider from "@/components/content/ImageSlider.vue";
+import ArticelCard from "~/components/blog/ArticelCard.vue";
 
 useHead({
   title: 'Media Store by JMSE - My-Media.world',
