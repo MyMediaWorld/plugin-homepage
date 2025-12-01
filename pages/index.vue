@@ -30,7 +30,7 @@ const pb = usePocketBase();
 
 onMounted(async() => {
   images.value = (await pb.collection('product_pictures').getList(1,10, {
-    filter: 'name="%homepage-%"'
+    filter: 'name ~"homepage-%"'
   })).items;
 });
 </script>
